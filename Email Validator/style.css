@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: "Open Sans", sans-serif;
+   /* background-color: aqua;*/
+   padding: 0;
+   margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: black;
+    color: wheat;
+    padding: 19px 12px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: 0 13px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul > li >a:hover{
+    color: gray;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+main{
+    min-height: 86vh;
+    padding: 2px;
+}
+.container{
+    max-width: 90vh;
+    margin: auto;
+    padding: 15px;;
+}
+.logo img{
+    width: 30px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 9px 12px;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+input [type='text']{
+    min-width: 40vw;
+    padding: 3px 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 20px;
+
+}
+#username{
+    width: 257px;
+    padding: 8px;
+}
+.btn{
+    width: 195px
+}
+}
+#resultCont div ::first-letter{
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightgreen;
+    }
+    .container{
+        font-size: 12px;
+    }
+        nav{
+            flex-direction: column;
+        }
+        .logo{
+            padding: 6px 0;
+        }
+        .logo img{
+            width: 15px;
+        }
+    }
+  
+  
